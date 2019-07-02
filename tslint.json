@@ -1,0 +1,23 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts", "*.json", "**/*.json", "**/*.js"]
+  },
+  "defaultSeverity": "error",
+  "rules": {
+    "no-console": false,
+    "curly": [true, "as-needed"],
+    "no-var-requires": false,
+    "no-debugger": false,
+    "jsx-boolean-value": false,
+    "ordered-imports": false
+  },
+  "jsRules": {
+    "no-console": false,
+    "curly": [true, "as-needed"],
+    "no-var-requires": false,
+    "no-debugger": false,
+    "jsx-boolean-value": false,
+    "ordered-imports": false
+  }
+}
